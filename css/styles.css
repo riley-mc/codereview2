@@ -3,7 +3,9 @@ body {
   text-align: center;
 }
 
-
+.test {
+  border-bottom: 5px solid black;
+}
 
 h1 {
   text-align: center;
@@ -25,4 +27,27 @@ h4 {
   font-family: 'Apple Chancery';
   border-radius: 8px;
   margin-top: 25px;
+
+}
+
+.start-button {
+  cursor: pointer;
+  color: lightcoral;
+
+}
+
+.start-button:hover {
+  text-decoration: underline;
+
+}
+
+.begin-hidden {
+  background-color: rgb(70, 53, 23);
+  color: black;
+  border-radius: 15px;
+  
+}
+
+.begin-showing {
+  display: none;
 }
