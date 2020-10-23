@@ -1,27 +1,25 @@
-function totalValue (number1, number2, number3, number4) {
-  return parseInt(number1) + parseInt(number2) + parseInt(number3) + parseInt(number4)
-}
-
-
 $(document).ready(function() {
   $(".start-button").click(function() {
     $(".begin-showing").show();
     $(".begin-hidden").hide();
-    event.preventDefault();
-      
+     event.preventDefault();   
   });
 });
 
 
 
 
-let weapon = $("input[name='weapon]:checked").val();
+let weapon = $("input[name='weapon']:checked").val();
 
 let beverage = $("input[name='beverage']:checked").val();
 
 let land = $("input[name='land']:checked").val();
 
-let total = totalValue (weapon, beverage, land);
+let treasure = $("input[name='treasure']:checked").val();
+
+let truth = $("input[name='truth']:checked").val();
+
+let total = totalValue (weapon, beverage, land, treasure, truth);
 
 $(".result1").hide();
 $(".result2").hide();
@@ -34,7 +32,11 @@ if (total >=14) {
   $(".result2").show(); 
 } else if (total >= 8) {
   $(".result3").show();
-} else {
+} else if (total >=4) {
+  $(".result4").show();
+} 
 
+function totalValue (number1, number2, number3, number4) {
+  return parseInt(number1) + parseInt(number2) + parseInt(number3) + parseInt(number4)
 }
 

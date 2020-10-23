@@ -24,17 +24,18 @@
         <h4>"Well hello there adventurer! Please come have a seat I have supplies and information that will help you on your travels. I have a way of telling you which fighting style, or school of magic will suit you best. The path ahead is very dangerous! All you must do is answer a few questions about yourself and I will give you the path you must follow."
         </h4>
 
-        
+        <form id="questions">
+
           <div class="begin-hidden">
             <p>"Lets begin!"<span class="start-button">Have a seat</span> to find your inner strength!</p>
           </div>
 
-          <div class="begin-showing">
-            
+          
+          <div class="begin-showing">  
             <img src="https://img.pngio.com/confessions-of-a-lone-wolf-doctor-belmont-fantasy-fiction-png-300_241.png">
             <p>"Now lets begin. I'm only going to ask you a few questions and use my practiced intuition to guide you on the right path."</p>
 
-            <form id="questions">
+            
               <h2>"First! What weapon do you feel a draw towards?"</h2>
               <div class="form-check">
                 <input type="radio" class="form-check-input" name="weapon" value="1">
@@ -88,8 +89,46 @@
                 <input type="radio" class="form-check-input" name="land" value="4">
                 <label class="form-check-label">City Underbelly</label>
               </div>
+              
+
+              <h2>"What treasure tickles your fancy?"</h2>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="treasure" value="1">
+                <label class="form-check-label">Golden Goblet</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="treasure" value="2">
+                <label class="form-check-label">Jeweled Shield</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="treasure" value="3">
+                <label class="form-check-label">Dusty Robes</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="treasure" value="4">
+                <label class="form-check-label">Sack of gold coins</label>
+              </div>
+
+              <h2>"Lastly, where does true power lie?"</h2>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="truth" value="1">
+                <label class="form-check-label">Your pure raw strength!</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="truth" value="2">
+                <label class="form-check-label">The power of friendship</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="truth" value="3">
+                <label class="form-check-label">Within corrupt goverments</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="truth" value="4">
+                <label class="form-check-label">No one should have power</label>
+              </div>
+
               <button type="submit" class="btn btn-warning">What is your path?</button>
-        
+              
             </form>
 
             <img class="result1" src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png" alt="photo of a fighter">
