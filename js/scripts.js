@@ -6,4 +6,4 @@ $(document).ready(function() {
   });
 
 
-  
+  const brand = $("input:radio[name=brand]:checked").val();
