@@ -49,7 +49,7 @@ h4 {
 }
 
 .begin-showing {
-  /* display: none; */
+  display: none;
   background-color: rgb(70, 53, 23);
   border-radius: 8px;
   color: black;
