@@ -14,10 +14,12 @@ h1 {
   border-radius: 8px;
   background-color: rgb(70, 53, 23);
   background-size: auto;
+  padding-left: auto;
+  padding-right: auto;
   
 }
 
-h5 {
+h4 {
   background-color:  rgb(70, 53, 23);
   color: black;
   font-family: 'Apple Chancery';
