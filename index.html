@@ -14,62 +14,60 @@
       background-size: 100%;
     }
   </style>
-
 </head>
 
 <body>
+  <h1>~Adventure League!~</h1>
+    <img src="https://i.pinimg.com/736x/7d/8e/6b/7d8e6bae8bcd3fa5772e4725b5cd0c5b.jpg" alt="A photo of an inkeeper">
+    <div class="container">
+      <h4>"Well hello there adventurer! Please come have a seat I have supplies and information that will help you on your travels. I have a way of telling you which fighting style, or school of magic will suit you best. Are you a JavaScript warrior? or do you weild the magic of C#? The path ahead is very dangerous! All you must do is answer a few questions about yourself and I will give you the path you must follow."
+      </h4>
+        <div class="questions">
+          <h2>"First! What weapon do you feel a draw towards?"</h2>
+          <form id="userData">
+            <select class = "form-control" id="weaponChoice">
+              <option value="theSword">The Sword</option>
+              <option value="theStaff">A Staff</option>
+              <option value="theDaggers">Razor Daggers</option>
+              <option value="theBow">Long Bow</option>
+            </select>
 
-    <h1>~Adventure League!~</h1>
-      <img src="https://i.pinimg.com/736x/7d/8e/6b/7d8e6bae8bcd3fa5772e4725b5cd0c5b.jpg" alt="A photo of an inkeeper">
-      <div class="container">
-        <h4>"Well hello there adventurer! Please come have a seat I have supplies and information that will help you on your travels. I have a way of telling you which fighting style, or school of magic will suit you best. Are you a JavaScript warrior? or do you weild the magic of C#? The path ahead is very dangerous! All you must do is answer a few questions about yourself and I will give you the path you must follow."
-        </h4>
-          <div class="questions">
-            <h2>"First! What weapon do you feel a draw towards?"</h2>
-            <form id="userData">
-              <select class = "form-control" id="weaponChoice">
-                <option value="theSword">The Sword</option>
-                <option value="theStaff">A Staff</option>
-                <option value="theDaggers">Razor Daggers</option>
-                <option value="theBow">Long Bow</option>
-              </select>
+          <h2>"Now, which beverage do you choose?"</h2>
+            <select class = "form-control" id="drinkChoice">
+              <option value="theBeer">Cold ale</option>
+              <option value="theWine">A fine wine</option>
+              <option value="theGoo">A purple bubbling vial</option>
+              <option value="theGrog">A skull of goblin grog</option>
+            </select>
+            
+          <h2>"Which environment do you thrive in most?"</h2>
+            <select class = "form-control" id="landChoice">
+              <option value="theMountain">Cold rocky mountains</option>
+              <option value="theBog">Stinking bubbling bog</option>
+              <option value="thePlains">Open wild plains</option>
+              <option value="theCity">The city underbelly</option>
+            </select>
 
-            <h2>"Now, which beverage do you choose?"</h2>
-              <select class = "form-control" id="drinkChoice">
-                <option value="theBeer">Cold ale</option>
-                <option value="theWine">A fine wine</option>
-                <option value="theGoo">A purple bubbling vial</option>
-                <option value="theGrog">A skull of goblin grog</option>
-              </select>
-              
-            <h2>"Which environment do you thrive in most?"</h2>
-              <select class = "form-control" id="landChoice">
-                <option value="theMountain">Cold rocky mountains</option>
-                <option value="theBog">Stinking bubbling bog</option>
-                <option value="thePlains">Open wild plains</option>
-                <option value="theCity">The city underbelly</option>
-              </select>
+          <h2>"What treasure tickles your fancy?"</h2>
+            <select class = "form-control" id="treasureChoice">
+              <option value="theGoblet">Golden Goblet</option>
+              <option value="theShield">Jeweled Shield</option>
+              <option value="theRobes">Old dusty robes</option>
+              <option value="theGold">Sack of gold coins</option>
+            </select>
 
-            <h2>"What treasure tickles your fancy?"</h2>
-              <select class = "form-control" id="treasureChoice">
-                <option value="theGoblet">Golden Goblet</option>
-                <option value="theShield">Jeweled Shield</option>
-                <option value="theRobes">Old dusty robes</option>
-                <option value="theGold">Sack of gold coins</option>
-              </select>
-
-            <h2>"Lastly, where does true power lie?"</h2>
-              <select class = "form-control" id="treasureChoice">
-                <option value="theStrength">With your incredibly strong biceps</option>
-                <option value="theFriends">The power of friendship</option>
-                <option value="theGovernment">Within corrupt governments</option>
-                <option value="theTruth">True power can never be found</option>
-              </select>
-            <button type="submit" class="btn btn-warning">What is your path?</button>
-          </form>
-        </div>
+          <h2>"Lastly, where does true power lie?"</h2>
+            <select class = "form-control" id="treasureChoice">
+              <option value="theStrength">With your incredibly strong biceps</option>
+              <option value="theFriends">The power of friendship</option>
+              <option value="theGovernment">Within corrupt governments</option>
+              <option value="theTruth">True power can never be found</option>
+            </select>
+          <button type="submit" class="btn btn-warning">What is your path?</button>
+        </form>
       </div>
     </div>
+  </div>
 
     <div id="result">
       <h2><span id="name"></span>"Ahhh very interesting.. But I believe the dicipline you should follow is..."</h2>
