@@ -2,11 +2,10 @@ $(document).ready(function() {
   $("form#userData").submit(function(event) {
     const drink = $("select#drinkChoice").val();
     const weapon = $("select#weaponChoice").val();
-    const treasure = $("select#treasureChoice").val();
     event.preventDefault();
 
-  $("results").show();
-  $("span#name").prepent().text(name);
+  $("#result").show();
+  $("span#name").prepend().text(name);
 
   if(weapon === "theSword") {
     $("#JavaScriptWarrior").fadeIn();
