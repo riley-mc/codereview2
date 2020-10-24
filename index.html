@@ -27,24 +27,16 @@
         <div class="row">
           <div class="col-10">
             <div class="questions">
-            <form id="userInfo">
               <h2>"First! What weapon do you feel a draw towards?"</h2>
-              <div class="form-check">
-                <input type="radio" class="form-check-input" name="weapon" value="1">
-                <label class="form-check-label">Sword</label>
-              </div>
-              <div class="form-check">
-                <input type="radio" class="form-check-input" name="weapon" value="2">
-                <label class="form-check-label">Staff</label>
-              </div>
-              <div class="form-check">
-                <input type="radio" class="form-check-input" name="weapon" value="3">
-                <label class="form-check-label">Daggers</label>
-              </div>
-              <div class="form-check">
-                <input type="radio" class="form-check-input" name="weapon" value="4">
-                <label class="form-check-label">Bow</label>
-              </div>
+              <form id="userData">
+                <!-- <div class="form-check"> -->
+                  <!-- <label for="weaponChoice"> Which weapon do you feel a draw towards?</label> -->
+                  <select class = "form-control" id="weaponChoice">
+                    <option value="theSword">The Sword</option>
+                    <option value="theStaff">A Staff</option>
+                    <option value="theDaggers">Razor Daggers</option>
+                    <option value="theBow">Long Bow</option>
+                  </select>
 
               <h2>"Now, which beverage do you choose?"</h2>
               <div class="form-check">
@@ -120,6 +112,14 @@
 
               <button type="submit" class="btn btn-warning">What is your path?</button>
 
+
+              <label for="prevExperience">Do you have any experience coding?</label>
+              <select class = "form-control" id="prevExperience">
+                <option value="noExperience">I don't even know what code looks like.</option>
+                <option value="someExperience">I'm somewhat familiar with the basics of one or two programming languages.</option>
+                <option value="muchExperience">I'm an experienced programmer looking to refine my skills.</option>
+              </select>
+
             </form>
 
             <img class="result1" src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/359/420/618/636272697874197438.png" alt="photo of a fighter">
@@ -132,9 +132,9 @@
 
 
 
-
           </div>
-        
+        </div>
+      </div>    
 
 
 
