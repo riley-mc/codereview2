@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+.container {
+  position: center;
+}
+
 .test {
   border-bottom: 5px solid black;
 }
@@ -23,9 +27,9 @@ h1 {
 
 h4 {
   background-color:  rgb(70, 53, 23);
+  border-radius: 8px;
   color: black;
   font-family: 'Apple Chancery';
-  border-radius: 8px;
   margin-top: 25px;
 
 }
