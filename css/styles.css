@@ -25,6 +25,11 @@ h1 {
   
 }
 
+h2 {
+  text-align: center;
+  color: rgb(77, 53, 34);
+}
+
 h4 {
   background-color:  rgb(70, 53, 23);
   border-radius: 8px;
@@ -34,23 +39,14 @@ h4 {
 
 }
 
+.questions {
+  text-align: center;
+}
+
 #result, #CSharpBard, #JavaScriptWarrior, #PythonMonk, #RubyWizard {
   display: none;
 }
 
-.begin-hidden {
-  background-color: rgb(70, 53, 23);
-  color: black;
-  border-radius: 15px;
-  
-}
-
-.begin-showing {
-  display: none;
-  background-color: rgb(70, 53, 23);
-  border-radius: 8px;
-  color: black;
-}
 
 p {
   color: black;
