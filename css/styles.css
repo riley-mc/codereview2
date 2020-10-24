@@ -34,15 +34,8 @@ h4 {
 
 }
 
-.start-button {
-  cursor: pointer;
-  color: lightcoral;
-
-}
-
-.start-button:hover {
-  text-decoration: underline;
-
+#result, #CSharpBard, #JavaScriptWarrior, #PythonMonk, #RubyWizard {
+  display: none;
 }
 
 .begin-hidden {
