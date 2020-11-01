@@ -12,25 +12,22 @@ $(document).ready(function() {
     $("#RubyWizard").hide();
     $("#PythonMonk").hide();
     $("#CSharpBard").hide();
-  }
-  else if (drink === "theWine" && weapon != "theSword") {
+  } else if (drink === "theWine" && weapon != "theSword") {
     $("#CSharpBard").fadeIn();
     $("#JavaScriptWarrior").hide();
     $("#RubyWizard").hide();
     $("#PythonMonk").hide();
-  }
-  else if (drink === "theGoo" && weapon ==="theStaff") {
+  } else if (drink === "theGoo" && weapon ==="theStaff") {
     $("#RubyWizard").fadeIn();
     $("#CSharpBard").hide();
     $("#JavaScriptWarrior").hide();
     $("#PythonMonk").hide();
-  }
-  else {
+  } else {
     $("#PythonMonk").fadeIn();
     $("#RubyWizard").hide();
     $("#CSharpBard").hide();
     $("JavaScriptWarrior").hide();
   }
   
-    });
   });
+});

@@ -1,10 +1,12 @@
 body {
   position: center;
   text-align: center;
+  background-color: rgb(161, 161, 128);
 }
 
 .container {
   position: center;
+  background-color: burlywood;
 }
 
 .test {
