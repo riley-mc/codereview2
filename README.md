@@ -12,7 +12,7 @@ This website will be my submission for code review week 2. It is a site that all
 
 *  First open up your terminal and enter the following commands to navigate to the portfolio directory. 
     * 'cd desktop' (ensure you start on the desktop to navigate in the terminal)
-    * 'cd portfolio'
+    * 'cd codereview2'
 
 *  Next, clone the remote repository and create a local copy on your machine using this command:
     * 'git clone https://github.com/riley-mc/codereview2'
