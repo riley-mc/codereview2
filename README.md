@@ -10,7 +10,7 @@ This website will be my submission for code review week 2. It is a site that all
 
 ## Setup/Installation Requirements
 
-*  First open up your terminal and enter the following commands to navigate to the portfolio directory. 
+*  First open up your terminal and enter the following commands to navigate to the codereview2 directory. 
     * 'cd desktop' (ensure you start on the desktop to navigate in the terminal)
     * 'cd codereview2'
 
